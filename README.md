@@ -25,21 +25,21 @@ There are mainly three parts in the project:
 
 
 ### File Descriptions
-- app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+- app    
+| - template    
+| |- master.html  # main page of web app    
+| |- go.html  # classification result page of web app    
+|- run.py  # Flask file that runs app    
 
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py # The main ETL process is here
-|- DisasterResponse.db   # database to save clean data to
+- data    
+|- disaster_categories.csv  # data to process    
+|- disaster_messages.csv  # data to process    
+|- process_data.py # The main ETL process is here    
+|- DisasterResponse.db   # database to save clean data to    
 
-- models
-|- train_classifier.py # The main ML process is here
-|- classifier.pkl  # saved model 
+- models    
+|- train_classifier.py # The main ML process is here    
+|- classifier.pkl  # saved model    
 
-- README.md
+- README.md    
 
